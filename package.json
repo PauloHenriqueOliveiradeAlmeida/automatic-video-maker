@@ -1,0 +1,19 @@
+{
+  "name": "automatic-video-maker",
+  "version": "1.0.0",
+  "description": "video-maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloHenriqueOliveiradeAlmeida/automatic-video-maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloHenriqueOliveiradeAlmeida/automatic-video-maker/issues"
+  },
+  "homepage": "https://github.com/PauloHenriqueOliveiradeAlmeida/automatic-video-maker#readme"
+}
