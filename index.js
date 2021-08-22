@@ -2,13 +2,13 @@ const READLINE = require('readline-sync');
 const ROBOTS = {
   text: require("./robots/text.js")
 };
-function start() {
+async function start() {
   const CONTENT = {};
 
   CONTENT.searchTerm = askAndReturnSearchTerm();
   CONTENT.prefix = askAndReturnPrefix();
 
-  ROBOTS.text(CONTENT);
+  await ROBOTS.text(CONTENT);
 
   function  askAndReturnSearchTerm() {
     return READLINE.question("Qual Termo Deseja Buscar na Wikipédia? ");
